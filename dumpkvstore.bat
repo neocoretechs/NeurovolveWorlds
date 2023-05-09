@@ -1,0 +1,1 @@
+java -ea -Dcom.sun.management.jmxremote.port=3333 -Dcom.sun.management.jmxremote.ssl=false  -Dcom.sun.management.jmxremote.authenticate=false -DNeurovolve.properties=C:/users/jg/workspace/NeurovolveWorlds/Xor.properties -cp \Users\share\jars\BigSack.jar;\Users\share\jars\Relatrix.jar;\Users\share\jars\Neurovolve.jar com.neocoretechs.relatrix.client.RelatrixKVClient %1 %2 %3 %4
